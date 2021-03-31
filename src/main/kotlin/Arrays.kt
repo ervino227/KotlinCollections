@@ -3,7 +3,7 @@ data class Student(val firstName: String, val grade: Int)
 fun main() {
     //an array can hold different types
     val things = arrayOf(1,2,3,"one","two","three")
-    //things[0] = "zero"
+    //things.set(0,"zero")
     for(thing in things) {
         println(thing)
     }

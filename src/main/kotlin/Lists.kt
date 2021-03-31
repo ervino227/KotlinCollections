@@ -1,7 +1,7 @@
 fun main() {
     val names = listOf("Daisy","Tom","Rob","Jimmy")
     println("First name is ${names.get(0)}")
-    println("Forst name is ${names[0]}")
+    println("First name is ${names[0]}")
 
     var subNames = names.subList(1,3)
     println(subNames)
